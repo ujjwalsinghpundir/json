@@ -1,0 +1,13 @@
+console.log("Hello, World!");
+function printfullTriangle(height)
+{
+    for(let i=1; i <= height; i++)
+    {
+        let spaces = ' '.repeat(height-i);
+        let stars = '*'.repeat(2*i -1);
+        console.log(spaces + stars + spaces);
+
+    }
+}
+const triangleHeight = 5;
+printfullTriangle(triangleHeight);
